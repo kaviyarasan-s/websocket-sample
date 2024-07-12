@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="/js/socketdemo.js"></script>
+<script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<meta charset="ISO-8859-1">
+<title>Web socket Demo</title>
+</head>
+<body>
+<h3>Hi</h3>
+<button onclick="openConnection()">Open Connection</button>
+<button onclick="closeConnection()">Close Connection</button>
+<button onclick="greet()">Greet</button>
+<button onclick="printmessage()">Print Message</button>
+<a href="/error">Error</a>
+<div style="margin-top:20px">JS side messages:</div>
+<div  id="clientMessage"></div>
+
+<div style="margin-top:20px" >Java side messages:</div>
+<div id="serverMessage"></div>
+</body>
+</html>
